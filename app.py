@@ -89,7 +89,7 @@ def main():
         
         if st.button("Process"):
             if pdf_docs:
-                with st.spinner("Processing your PDFs..."):
+                with st.spinner("Mugging Up the PDFs"):
                     # Clear previous messages when processing new documents
                     st.session_state.messages = []
                     
